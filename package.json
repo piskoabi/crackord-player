@@ -1,0 +1,36 @@
+{
+  "name": "iptv-player-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3005 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.102.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "hls.js": "^1.6.15",
+    "idb-keyval": "^6.2.2",
+    "iptv-playlist-parser": "^0.15.2",
+    "lucide-react": "^1.7.0",
+    "next": "16.2.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-virtuoso": "^4.18.4",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
